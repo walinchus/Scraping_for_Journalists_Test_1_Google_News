@@ -19,4 +19,4 @@ def get_google_new_results( term, count ):
 
 items = get_google_new_results( 'Oklahoma+Court', 10 )
 for i,e in enumerate(items):
-    print '%d: %s' % (i+1,e,
+    print '%d: %s' % (i+1,e,)
